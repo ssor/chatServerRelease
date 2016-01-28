@@ -93,7 +93,7 @@
                 appendLog($("<div/>").text(message.name + " ：" + message.content))
                 break
                 case proto_image:
-                appendLog($("<div>"+ message.name + "：<img src='"+ message.content +"' style='max-width: 200px;'></div>"))
+                appendLog($("<div>"+ message.name + "：<img src='/shareImage/"+ message.content +"' style='max-width: 200px;'></div>"))
                 // appendLog($("<div/>").text(message.name + " ：分享了一张图片 "))
                 break
             }
